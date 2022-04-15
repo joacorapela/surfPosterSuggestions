@@ -1,1 +1,1 @@
-<img src="all_figures.html>
+![all_figures](figures/all_figures.html)
