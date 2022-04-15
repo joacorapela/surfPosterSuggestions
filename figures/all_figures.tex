@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage[active, tightpage]{preview}
+\setlength\PreviewBorder{10pt}%
+\PreviewEnvironment{center}
+
+\begin{document}
+
+\begin{preview}
+    \begin{tabular}{ccc}
+        &Simulations&\\
+        \includegraphics[width=1in]{46884517_pos_smoothed.png} & 
+        \includegraphics[width=1in]{46884517_vel_smoothed.png} &
+        \includegraphics[width=1in]{46884517_acc_smoothed.png} \\
+        \tiny(a) Positions & \tiny(b) Velocities & \tiny(c) Accelerations\\[10pt]
+        \hline\\
+        &Foraging Mouse&\\
+        \includegraphics[width=1in]{{positions_smoothed_session003_start0.00_end15548.27_startPosition1_numPosition10000}.png} & 
+        \includegraphics[width=1in]{{positions_velocities_session003_start0.00_end15548.27_startPosition1_numPosition10000}.png} &
+        \includegraphics[width=1in]{{positions_accelerations_session003_start0.00_end15548.27_startPosition1_numPosition10000}.png} \\
+        \tiny(c) Positions & \tiny(d) Smoothed Velocities & \tiny(d) Smoothed Accelerations
+    \end{tabular}
+\end{preview}
+
+\end{document}
