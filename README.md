@@ -1,1 +1,1 @@
-![all_figures](figures/all_figures.html)
+![live_figures](figures/live_figures.html)
